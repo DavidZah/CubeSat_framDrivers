@@ -20,10 +20,10 @@
     <OverrideVtor>false</OverrideVtor>
     <CacheFlash>true</CacheFlash>
     <ProgFlashFromRam>true</ProgFlashFromRam>
-    <RamSnippetAddress />
+    <RamSnippetAddress>0x20000000</RamSnippetAddress>
     <UncachedRange />
     <preserveEEPROM>true</preserveEEPROM>
-    <OverrideVtorValue />
+    <OverrideVtorValue>exception_table</OverrideVtorValue>
     <BootSegment>2</BootSegment>
     <ResetRule>0</ResetRule>
     <eraseonlaunchrule>0</eraseonlaunchrule>
@@ -174,6 +174,22 @@
         <NonsecureFilesInfo />
       </AcmeProjectConfig>
     </AcmeProjectConfig>
+    <avrtool>com.atmel.avrdbg.tool.atmelice</avrtool>
+    <avrtoolserialnumber>J41800096500</avrtoolserialnumber>
+    <avrdeviceexpectedsignature>0x10810219</avrdeviceexpectedsignature>
+    <avrtoolinterface>SWD</avrtoolinterface>
+    <com_atmel_avrdbg_tool_atmelice>
+      <ToolOptions>
+        <InterfaceProperties>
+          <SwdClock>2000000</SwdClock>
+        </InterfaceProperties>
+        <InterfaceName>SWD</InterfaceName>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.atmelice</ToolType>
+      <ToolNumber>J41800096500</ToolNumber>
+      <ToolName>Atmel-ICE</ToolName>
+    </com_atmel_avrdbg_tool_atmelice>
+    <avrtoolinterfaceclock>2000000</avrtoolinterfaceclock>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
@@ -306,9 +322,11 @@
       <Value>../hpl/tc</Value>
       <Value>../hri</Value>
       <Value>%24(PackRepoDir)\Atmel\SAML21_DFP\1.2.125\saml21b\include</Value>
+      <Value>../temperature_sensor</Value>
+      <Value>../temperature_sensor/mcp980x</Value>
+      <Value>../temperature_sensor/at30tse75x</Value>
     </ListValues>
   </armgcc.compiler.directories.IncludePaths>
-  <armgcc.compiler.optimization.level>Optimize (-O1)</armgcc.compiler.optimization.level>
   <armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>True</armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>
   <armgcc.compiler.optimization.DebugLevel>Maximum (-g3)</armgcc.compiler.optimization.DebugLevel>
   <armgcc.compiler.warnings.AllWarnings>True</armgcc.compiler.warnings.AllWarnings>
@@ -324,6 +342,7 @@
     </ListValues>
   </armgcc.linker.libraries.LibrarySearchPaths>
   <armgcc.linker.optimization.GarbageCollectUnusedSections>True</armgcc.linker.optimization.GarbageCollectUnusedSections>
+  <armgcc.linker.memorysettings.ExternalRAM />
   <armgcc.linker.miscellaneous.LinkerFlags>-Tsaml21e18b_flash.ld</armgcc.linker.miscellaneous.LinkerFlags>
   <armgcc.assembler.general.IncludePaths>
     <ListValues>
@@ -406,6 +425,9 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Config\hpl_tc_config.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Config\mcp23017_config.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Config\peripheral_clk_config.h">
@@ -744,6 +766,45 @@
     <Compile Include="main.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="memory\fm24cl16b\fm24cl16b.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="memory\fm24cl16b\fm24cl16b.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="memory\memory.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="memory\memory.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="temperature_sensor\at30tse75x\at30tse75x.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="temperature_sensor\at30tse75x\at30tse75x.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="temperature_sensor\at30tse75x\at30tse75x_config.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="temperature_sensor\mcp980x\mcp980x.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="temperature_sensor\mcp980x\mcp980x.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="temperature_sensor\temperature_sensor.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="temperature_sensor\temperature_sensor.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="temperature_sensor_main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="temperature_sensor_main.h">
+      <SubType>compile</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Config\" />
@@ -767,12 +828,23 @@
     <Folder Include="hpl\sercom\" />
     <Folder Include="hpl\tc\" />
     <Folder Include="hri\" />
+    <Folder Include="memory" />
+    <Folder Include="memory\fm24cl16b" />
+    <Folder Include="temperature_sensor\" />
+    <Folder Include="temperature_sensor\at30tse75x\" />
+    <Folder Include="temperature_sensor\mcp980x\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Device_Startup\saml21e18b_flash.ld">
       <SubType>compile</SubType>
     </None>
     <None Include="Device_Startup\saml21e18b_sram.ld">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="temperature_sensor\at30tse75x\at30tse75x.c.orig">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="temperature_sensor\mcp980x\mcp980x.c.orig">
       <SubType>compile</SubType>
     </None>
   </ItemGroup>
