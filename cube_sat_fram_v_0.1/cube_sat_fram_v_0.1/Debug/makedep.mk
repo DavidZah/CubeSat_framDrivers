@@ -62,6 +62,8 @@ memory\fm24cl16b\fm24cl16b.c
 
 memory\memory.c
 
+memory_main.c
+
 temperature_sensor\at30tse75x\at30tse75x.c
 
 temperature_sensor\mcp980x\mcp980x.c

@@ -1,6 +1,4 @@
-memory/fm24cl16b/fm24cl16b.d memory/fm24cl16b/fm24cl16b.o: \
- ../memory/fm24cl16b/fm24cl16b.c ../memory/fm24cl16b/fm24cl16b.h \
- ../hal/include/hal_i2c_m_sync.h ../hal/include/hpl_i2c_m_sync.h \
+memory/memory.d memory/memory.o: ../memory/memory.c ../memory/memory.h \
  ../hal/utils/include/compiler.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h \
@@ -100,14 +98,9 @@ memory/fm24cl16b/fm24cl16b.d memory/fm24cl16b/fm24cl16b.o: \
  ../hri/hri_systemcontrol_l21.h ../hri/hri_systick_l21.h \
  ../hri/hri_tc_l21.h ../hri/hri_tcc_l21.h ../hri/hri_trng_l21.h \
  ../hri/hri_usb_l21.h ../hri/hri_wdt_l21.h \
- ../hal/utils/include/err_codes.h ../hal/include/hal_io.h \
- ../memory/memory.h
+ ../hal/utils/include/err_codes.h
 
-../memory/fm24cl16b/fm24cl16b.h:
-
-../hal/include/hal_i2c_m_sync.h:
-
-../hal/include/hpl_i2c_m_sync.h:
+../memory/memory.h:
 
 ../hal/utils/include/compiler.h:
 
@@ -348,7 +341,3 @@ C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\Atmel\SAML21_DFP\1.2.125\saml21b
 ../hri/hri_wdt_l21.h:
 
 ../hal/utils/include/err_codes.h:
-
-../hal/include/hal_io.h:
-
-../memory/memory.h:

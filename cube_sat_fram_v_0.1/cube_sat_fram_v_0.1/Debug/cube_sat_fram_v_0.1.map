@@ -120,6 +120,7 @@ Common symbol       size              file
 
 errno               0x4               c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-reent.o)
 _irq_table          0x74              hpl/core/hpl_core_m0plus_base.o
+Memory_1            0x4               memory_main.o
 TEMPERATURE_SENSOR  0x4               temperature_sensor_main.o
 I2C_0               0x20              driver_init.o
 TIMER_0             0x1c              driver_init.o
@@ -6956,6 +6957,18 @@ Discarded input sections
  .group         0x00000000        0x8 main.o
  .group         0x00000000        0x8 main.o
  .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
@@ -7077,6 +7090,742 @@ Discarded input sections
  .debug_macro   0x00000000       0x74 main.o
  .debug_macro   0x00000000       0x46 main.o
  .debug_macro   0x00000000       0x70 main.o
+ .debug_macro   0x00000000       0x58 main.o
+ .debug_macro   0x00000000       0x35 main.o
+ .debug_macro   0x00000000       0x9c main.o
+ .debug_macro   0x00000000       0x58 main.o
+ .debug_macro   0x00000000       0x1f main.o
+ .debug_macro   0x00000000       0x43 main.o
+ .debug_macro   0x00000000       0x20 main.o
+ .debug_macro   0x00000000      0x187 main.o
+ .debug_macro   0x00000000      0x34d main.o
+ .debug_macro   0x00000000       0x10 main.o
+ .debug_macro   0x00000000       0x35 main.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/fm24cl16b/fm24cl16b.o
+ .text          0x00000000        0x0 memory/fm24cl16b/fm24cl16b.o
+ .data          0x00000000        0x0 memory/fm24cl16b/fm24cl16b.o
+ .bss           0x00000000        0x0 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x89e memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x16d memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x22 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x87 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x51 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xef memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x6a memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x1df memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x22 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x3f memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x1c memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x22 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xb5 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x3ad memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x714 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x8f0 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x279 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x21e memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x4c3 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0xe12 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x5e7 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x5be memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x824 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x314 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x5c6 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x21c memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x729 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x16f memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x70f memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x28c memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x6e1 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x2c5 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x3c1 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x1a0 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000     0x1260 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0xf4d memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x866 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x8ae memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000     0x19be memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xe7 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000     0x13e6 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x36a memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x7c memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xac memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xca memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x4c memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x94 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xdc memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xb2 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x64 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x5a4 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x19d memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x70 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xa0 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xc4 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x28 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xa0 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x40 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x7c memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x40 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x16c memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x10 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x34 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xee memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x12b memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x12b memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x12b memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x12b memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x12b memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x12b memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x5e memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xfa memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xfa memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xfa memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x124 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xfa memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xee memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x2e memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x40f memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x3a memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x410 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000     0x134f memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x90 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x10 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x10 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x2e0 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x94 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xbe memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x28c memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000      0x4d8 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x16 memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0xca memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x6a memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x00000000       0x10 memory/fm24cl16b/fm24cl16b.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .group         0x00000000        0x8 memory/memory.o
+ .text          0x00000000        0x0 memory/memory.o
+ .data          0x00000000        0x0 memory/memory.o
+ .bss           0x00000000        0x0 memory/memory.o
+ .text.memory_write
+                0x00000000       0x2e memory/memory.o
+ .debug_macro   0x00000000      0x89e memory/memory.o
+ .debug_macro   0x00000000      0x16d memory/memory.o
+ .debug_macro   0x00000000       0x22 memory/memory.o
+ .debug_macro   0x00000000       0x87 memory/memory.o
+ .debug_macro   0x00000000       0x51 memory/memory.o
+ .debug_macro   0x00000000       0xef memory/memory.o
+ .debug_macro   0x00000000       0x6a memory/memory.o
+ .debug_macro   0x00000000      0x1df memory/memory.o
+ .debug_macro   0x00000000       0x22 memory/memory.o
+ .debug_macro   0x00000000       0x3f memory/memory.o
+ .debug_macro   0x00000000       0x1c memory/memory.o
+ .debug_macro   0x00000000       0x22 memory/memory.o
+ .debug_macro   0x00000000       0xb5 memory/memory.o
+ .debug_macro   0x00000000      0x3ad memory/memory.o
+ .debug_macro   0x00000000      0x714 memory/memory.o
+ .debug_macro   0x00000000      0x8f0 memory/memory.o
+ .debug_macro   0x00000000      0x279 memory/memory.o
+ .debug_macro   0x00000000      0x21e memory/memory.o
+ .debug_macro   0x00000000      0x4c3 memory/memory.o
+ .debug_macro   0x00000000      0xe12 memory/memory.o
+ .debug_macro   0x00000000      0x5e7 memory/memory.o
+ .debug_macro   0x00000000      0x5be memory/memory.o
+ .debug_macro   0x00000000      0x824 memory/memory.o
+ .debug_macro   0x00000000      0x314 memory/memory.o
+ .debug_macro   0x00000000      0x5c6 memory/memory.o
+ .debug_macro   0x00000000      0x21c memory/memory.o
+ .debug_macro   0x00000000      0x729 memory/memory.o
+ .debug_macro   0x00000000      0x16f memory/memory.o
+ .debug_macro   0x00000000      0x70f memory/memory.o
+ .debug_macro   0x00000000      0x28c memory/memory.o
+ .debug_macro   0x00000000      0x6e1 memory/memory.o
+ .debug_macro   0x00000000      0x2c5 memory/memory.o
+ .debug_macro   0x00000000      0x3c1 memory/memory.o
+ .debug_macro   0x00000000      0x1a0 memory/memory.o
+ .debug_macro   0x00000000     0x1260 memory/memory.o
+ .debug_macro   0x00000000      0xf4d memory/memory.o
+ .debug_macro   0x00000000      0x866 memory/memory.o
+ .debug_macro   0x00000000      0x8ae memory/memory.o
+ .debug_macro   0x00000000     0x19be memory/memory.o
+ .debug_macro   0x00000000       0xe7 memory/memory.o
+ .debug_macro   0x00000000     0x13e6 memory/memory.o
+ .debug_macro   0x00000000      0x36a memory/memory.o
+ .debug_macro   0x00000000       0x7c memory/memory.o
+ .debug_macro   0x00000000       0xac memory/memory.o
+ .debug_macro   0x00000000       0xca memory/memory.o
+ .debug_macro   0x00000000       0x4c memory/memory.o
+ .debug_macro   0x00000000       0x94 memory/memory.o
+ .debug_macro   0x00000000       0xdc memory/memory.o
+ .debug_macro   0x00000000       0xb2 memory/memory.o
+ .debug_macro   0x00000000       0x64 memory/memory.o
+ .debug_macro   0x00000000      0x5a4 memory/memory.o
+ .debug_macro   0x00000000      0x19d memory/memory.o
+ .debug_macro   0x00000000       0x70 memory/memory.o
+ .debug_macro   0x00000000       0xa0 memory/memory.o
+ .debug_macro   0x00000000       0xc4 memory/memory.o
+ .debug_macro   0x00000000       0x28 memory/memory.o
+ .debug_macro   0x00000000       0xa0 memory/memory.o
+ .debug_macro   0x00000000       0x40 memory/memory.o
+ .debug_macro   0x00000000       0x7c memory/memory.o
+ .debug_macro   0x00000000       0x40 memory/memory.o
+ .debug_macro   0x00000000      0x16c memory/memory.o
+ .debug_macro   0x00000000       0x10 memory/memory.o
+ .debug_macro   0x00000000       0x34 memory/memory.o
+ .debug_macro   0x00000000       0xee memory/memory.o
+ .debug_macro   0x00000000      0x12b memory/memory.o
+ .debug_macro   0x00000000      0x12b memory/memory.o
+ .debug_macro   0x00000000      0x12b memory/memory.o
+ .debug_macro   0x00000000      0x12b memory/memory.o
+ .debug_macro   0x00000000      0x12b memory/memory.o
+ .debug_macro   0x00000000      0x12b memory/memory.o
+ .debug_macro   0x00000000       0x5e memory/memory.o
+ .debug_macro   0x00000000       0xfa memory/memory.o
+ .debug_macro   0x00000000       0xfa memory/memory.o
+ .debug_macro   0x00000000       0xfa memory/memory.o
+ .debug_macro   0x00000000      0x124 memory/memory.o
+ .debug_macro   0x00000000       0xfa memory/memory.o
+ .debug_macro   0x00000000       0xee memory/memory.o
+ .debug_macro   0x00000000       0x2e memory/memory.o
+ .debug_macro   0x00000000      0x40f memory/memory.o
+ .debug_macro   0x00000000       0x3a memory/memory.o
+ .debug_macro   0x00000000      0x410 memory/memory.o
+ .debug_macro   0x00000000     0x134f memory/memory.o
+ .debug_macro   0x00000000       0x90 memory/memory.o
+ .debug_macro   0x00000000       0x10 memory/memory.o
+ .debug_macro   0x00000000       0x10 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000      0x2e0 memory/memory.o
+ .debug_macro   0x00000000       0x94 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0xbe memory/memory.o
+ .debug_macro   0x00000000      0x28c memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000      0x4d8 memory/memory.o
+ .debug_macro   0x00000000       0x16 memory/memory.o
+ .debug_macro   0x00000000       0xca memory/memory.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .group         0x00000000        0x8 memory_main.o
+ .text          0x00000000        0x0 memory_main.o
+ .data          0x00000000        0x0 memory_main.o
+ .debug_macro   0x00000000      0x89e memory_main.o
+ .debug_macro   0x00000000      0x16d memory_main.o
+ .debug_macro   0x00000000       0x22 memory_main.o
+ .debug_macro   0x00000000       0x87 memory_main.o
+ .debug_macro   0x00000000       0x51 memory_main.o
+ .debug_macro   0x00000000       0xef memory_main.o
+ .debug_macro   0x00000000       0x6a memory_main.o
+ .debug_macro   0x00000000      0x1df memory_main.o
+ .debug_macro   0x00000000       0x22 memory_main.o
+ .debug_macro   0x00000000       0x3f memory_main.o
+ .debug_macro   0x00000000       0x1c memory_main.o
+ .debug_macro   0x00000000       0x22 memory_main.o
+ .debug_macro   0x00000000       0xb5 memory_main.o
+ .debug_macro   0x00000000      0x3ad memory_main.o
+ .debug_macro   0x00000000      0x714 memory_main.o
+ .debug_macro   0x00000000      0x8f0 memory_main.o
+ .debug_macro   0x00000000      0x279 memory_main.o
+ .debug_macro   0x00000000      0x21e memory_main.o
+ .debug_macro   0x00000000      0x4c3 memory_main.o
+ .debug_macro   0x00000000      0xe12 memory_main.o
+ .debug_macro   0x00000000      0x5e7 memory_main.o
+ .debug_macro   0x00000000      0x5be memory_main.o
+ .debug_macro   0x00000000      0x824 memory_main.o
+ .debug_macro   0x00000000      0x314 memory_main.o
+ .debug_macro   0x00000000      0x5c6 memory_main.o
+ .debug_macro   0x00000000      0x21c memory_main.o
+ .debug_macro   0x00000000      0x729 memory_main.o
+ .debug_macro   0x00000000      0x16f memory_main.o
+ .debug_macro   0x00000000      0x70f memory_main.o
+ .debug_macro   0x00000000      0x28c memory_main.o
+ .debug_macro   0x00000000      0x6e1 memory_main.o
+ .debug_macro   0x00000000      0x2c5 memory_main.o
+ .debug_macro   0x00000000      0x3c1 memory_main.o
+ .debug_macro   0x00000000      0x1a0 memory_main.o
+ .debug_macro   0x00000000     0x1260 memory_main.o
+ .debug_macro   0x00000000      0xf4d memory_main.o
+ .debug_macro   0x00000000      0x866 memory_main.o
+ .debug_macro   0x00000000      0x8ae memory_main.o
+ .debug_macro   0x00000000     0x19be memory_main.o
+ .debug_macro   0x00000000       0xe7 memory_main.o
+ .debug_macro   0x00000000     0x13e6 memory_main.o
+ .debug_macro   0x00000000      0x36a memory_main.o
+ .debug_macro   0x00000000       0x7c memory_main.o
+ .debug_macro   0x00000000       0xac memory_main.o
+ .debug_macro   0x00000000       0xca memory_main.o
+ .debug_macro   0x00000000       0x4c memory_main.o
+ .debug_macro   0x00000000       0x94 memory_main.o
+ .debug_macro   0x00000000       0xdc memory_main.o
+ .debug_macro   0x00000000       0xb2 memory_main.o
+ .debug_macro   0x00000000       0x64 memory_main.o
+ .debug_macro   0x00000000      0x5a4 memory_main.o
+ .debug_macro   0x00000000      0x19d memory_main.o
+ .debug_macro   0x00000000       0x70 memory_main.o
+ .debug_macro   0x00000000       0xa0 memory_main.o
+ .debug_macro   0x00000000       0xc4 memory_main.o
+ .debug_macro   0x00000000       0x28 memory_main.o
+ .debug_macro   0x00000000       0xa0 memory_main.o
+ .debug_macro   0x00000000       0x40 memory_main.o
+ .debug_macro   0x00000000       0x7c memory_main.o
+ .debug_macro   0x00000000       0x40 memory_main.o
+ .debug_macro   0x00000000      0x16c memory_main.o
+ .debug_macro   0x00000000       0x10 memory_main.o
+ .debug_macro   0x00000000       0x34 memory_main.o
+ .debug_macro   0x00000000       0xee memory_main.o
+ .debug_macro   0x00000000      0x12b memory_main.o
+ .debug_macro   0x00000000      0x12b memory_main.o
+ .debug_macro   0x00000000      0x12b memory_main.o
+ .debug_macro   0x00000000      0x12b memory_main.o
+ .debug_macro   0x00000000      0x12b memory_main.o
+ .debug_macro   0x00000000      0x12b memory_main.o
+ .debug_macro   0x00000000       0x5e memory_main.o
+ .debug_macro   0x00000000       0xfa memory_main.o
+ .debug_macro   0x00000000       0xfa memory_main.o
+ .debug_macro   0x00000000       0xfa memory_main.o
+ .debug_macro   0x00000000      0x124 memory_main.o
+ .debug_macro   0x00000000       0xfa memory_main.o
+ .debug_macro   0x00000000       0xee memory_main.o
+ .debug_macro   0x00000000       0x2e memory_main.o
+ .debug_macro   0x00000000      0x40f memory_main.o
+ .debug_macro   0x00000000       0x3a memory_main.o
+ .debug_macro   0x00000000      0x410 memory_main.o
+ .debug_macro   0x00000000     0x134f memory_main.o
+ .debug_macro   0x00000000       0x90 memory_main.o
+ .debug_macro   0x00000000       0x10 memory_main.o
+ .debug_macro   0x00000000       0x10 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000      0x2e0 memory_main.o
+ .debug_macro   0x00000000       0x94 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0xbe memory_main.o
+ .debug_macro   0x00000000      0x28c memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000      0x4d8 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0xca memory_main.o
+ .debug_macro   0x00000000       0x6a memory_main.o
+ .debug_macro   0x00000000       0x10 memory_main.o
+ .debug_macro   0x00000000       0x58 memory_main.o
+ .debug_macro   0x00000000       0x35 memory_main.o
+ .debug_macro   0x00000000       0x9c memory_main.o
+ .debug_macro   0x00000000       0x58 memory_main.o
+ .debug_macro   0x00000000       0x1f memory_main.o
+ .debug_macro   0x00000000       0x43 memory_main.o
+ .debug_macro   0x00000000       0x20 memory_main.o
+ .debug_macro   0x00000000      0x187 memory_main.o
+ .debug_macro   0x00000000      0x34d memory_main.o
+ .debug_macro   0x00000000       0x10 memory_main.o
+ .debug_macro   0x00000000       0x35 memory_main.o
+ .debug_macro   0x00000000       0x16 memory_main.o
+ .debug_macro   0x00000000       0x74 memory_main.o
+ .debug_macro   0x00000000       0x46 memory_main.o
  .group         0x00000000        0x8 temperature_sensor/at30tse75x/at30tse75x.o
  .group         0x00000000        0x8 temperature_sensor/at30tse75x/at30tse75x.o
  .group         0x00000000        0x8 temperature_sensor/at30tse75x/at30tse75x.o
@@ -8032,6 +8781,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 temperature_sensor_main.o
  .debug_macro   0x00000000       0x4c temperature_sensor_main.o
  .debug_macro   0x00000000       0x10 temperature_sensor_main.o
+ .debug_macro   0x00000000       0x22 temperature_sensor_main.o
  .debug_macro   0x00000000       0x16 temperature_sensor_main.o
  .debug_macro   0x00000000       0x74 temperature_sensor_main.o
  .debug_macro   0x00000000       0x46 temperature_sensor_main.o
@@ -8505,6 +9255,9 @@ LOAD hpl/pm/hpl_pm.o
 LOAD hpl/sercom/hpl_sercom.o
 LOAD hpl/tc/hpl_tc.o
 LOAD main.o
+LOAD memory/fm24cl16b/fm24cl16b.o
+LOAD memory/memory.o
+LOAD memory_main.o
 LOAD temperature_sensor/at30tse75x/at30tse75x.o
 LOAD temperature_sensor/mcp980x/mcp980x.o
 LOAD temperature_sensor/temperature_sensor.o
@@ -8524,7 +9277,7 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
                 0x00002000                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:DEFINED (__stack_size__)?__stack_size__:0x2000
 
-.text           0x00000000     0x4378
+.text           0x00000000     0x4480
                 0x00000000                . = ALIGN (0x4)
                 0x00000000                _sfixed = .
  *(.vectors .vectors.*)
@@ -8864,157 +9617,176 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin
                 0x00002864       0x28 hpl/tc/hpl_tc.o
  .text._get_hardware_offset
                 0x0000288c       0x30 hpl/tc/hpl_tc.o
- .text.main     0x000028bc       0x48 main.o
+ .text.main     0x000028bc       0x50 main.o
                 0x000028bc                main
+ .text.fm24cl16b_construct
+                0x0000290c       0x44 memory/fm24cl16b/fm24cl16b.o
+                0x0000290c                fm24cl16b_construct
+ .text.fm24cl16b_read
+                0x00002950       0x12 memory/fm24cl16b/fm24cl16b.o
+                0x00002950                fm24cl16b_read
+ .text.fm24cl16b_write
+                0x00002962       0x12 memory/fm24cl16b/fm24cl16b.o
+                0x00002962                fm24cl16b_write
+ .text.memory_construct
+                0x00002974       0x22 memory/memory.o
+                0x00002974                memory_construct
+ .text.memory_read
+                0x00002996       0x2e memory/memory.o
+                0x00002996                memory_read
+ .text.memory_init
+                0x000029c4       0x40 memory_main.o
+                0x000029c4                memory_init
  .text.mcp980X_construct
-                0x00002904       0x48 temperature_sensor/mcp980x/mcp980x.o
-                0x00002904                mcp980X_construct
+                0x00002a04       0x48 temperature_sensor/mcp980x/mcp980x.o
+                0x00002a04                mcp980X_construct
  .text.mcp980x_read
-                0x0000294c       0xc8 temperature_sensor/mcp980x/mcp980x.o
-                0x0000294c                mcp980x_read
+                0x00002a4c       0xc8 temperature_sensor/mcp980x/mcp980x.o
+                0x00002a4c                mcp980x_read
  .text.mcp980x_config
-                0x00002a14       0xa0 temperature_sensor/mcp980x/mcp980x.o
-                0x00002a14                mcp980x_config
+                0x00002b14       0xa0 temperature_sensor/mcp980x/mcp980x.o
+                0x00002b14                mcp980x_config
  .text._mcp980x_set_setup
-                0x00002ab4      0x1c0 temperature_sensor/mcp980x/mcp980x.o
-                0x00002ab4                _mcp980x_set_setup
+                0x00002bb4      0x1c0 temperature_sensor/mcp980x/mcp980x.o
+                0x00002bb4                _mcp980x_set_setup
  .text._mcp980x_set_tupper
-                0x00002c74      0x1dc temperature_sensor/mcp980x/mcp980x.o
-                0x00002c74                _mcp980x_set_tupper
+                0x00002d74      0x1dc temperature_sensor/mcp980x/mcp980x.o
+                0x00002d74                _mcp980x_set_tupper
  .text._mcp980x_set_lower
-                0x00002e50      0x1dc temperature_sensor/mcp980x/mcp980x.o
-                0x00002e50                _mcp980x_set_lower
+                0x00002f50      0x1dc temperature_sensor/mcp980x/mcp980x.o
+                0x00002f50                _mcp980x_set_lower
  .text._mcp980x_set_critical
-                0x0000302c      0x1dc temperature_sensor/mcp980x/mcp980x.o
-                0x0000302c                _mcp980x_set_critical
+                0x0000312c      0x1dc temperature_sensor/mcp980x/mcp980x.o
+                0x0000312c                _mcp980x_set_critical
  .text._mcp980x_set_resolution
-                0x00003208       0xa0 temperature_sensor/mcp980x/mcp980x.o
-                0x00003208                _mcp980x_set_resolution
+                0x00003308       0xa0 temperature_sensor/mcp980x/mcp980x.o
+                0x00003308                _mcp980x_set_resolution
  .text.temperature_sensor_construct
-                0x000032a8       0x22 temperature_sensor/temperature_sensor.o
-                0x000032a8                temperature_sensor_construct
+                0x000033a8       0x22 temperature_sensor/temperature_sensor.o
+                0x000033a8                temperature_sensor_construct
  .text.temperature_sensor_read
-                0x000032ca       0x1e temperature_sensor/temperature_sensor.o
-                0x000032ca                temperature_sensor_read
+                0x000033ca       0x1e temperature_sensor/temperature_sensor.o
+                0x000033ca                temperature_sensor_read
  .text.temperature_sensors_init
-                0x000032e8       0x38 temperature_sensor_main.o
-                0x000032e8                temperature_sensors_init
- .text          0x00003320      0x114 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
-                0x00003320                __aeabi_uidiv
-                0x00003320                __udivsi3
-                0x0000342c                __aeabi_uidivmod
- .text          0x00003434        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
-                0x00003434                __aeabi_idiv0
-                0x00003434                __aeabi_ldiv0
- .text          0x00003438      0x240 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(mulsf3.o)
-                0x00003438                __aeabi_fmul
- .text          0x00003678      0x338 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subsf3.o)
-                0x00003678                __aeabi_fsub
- .text          0x000039b0       0x40 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixsfsi.o)
-                0x000039b0                __aeabi_f2iz
- .text          0x000039f0       0xa0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsisf.o)
-                0x000039f0                __aeabi_i2f
- .text          0x00003a90      0x500 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
-                0x00003a90                __aeabi_dmul
- .text          0x00003f90       0x84 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsidf.o)
-                0x00003f90                __aeabi_i2d
- .text          0x00004014      0x114 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(truncdfsf2.o)
-                0x00004014                __aeabi_d2f
- .text          0x00004128       0x3c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_clzsi2.o)
-                0x00004128                __clzsi2
+                0x000033e8       0x38 temperature_sensor_main.o
+                0x000033e8                temperature_sensors_init
+ .text          0x00003420      0x114 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+                0x00003420                __aeabi_uidiv
+                0x00003420                __udivsi3
+                0x0000352c                __aeabi_uidivmod
+ .text          0x00003534        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                0x00003534                __aeabi_idiv0
+                0x00003534                __aeabi_ldiv0
+ .text          0x00003538      0x240 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(mulsf3.o)
+                0x00003538                __aeabi_fmul
+ .text          0x00003778      0x338 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subsf3.o)
+                0x00003778                __aeabi_fsub
+ .text          0x00003ab0       0x40 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixsfsi.o)
+                0x00003ab0                __aeabi_f2iz
+ .text          0x00003af0       0xa0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsisf.o)
+                0x00003af0                __aeabi_i2f
+ .text          0x00003b90      0x500 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
+                0x00003b90                __aeabi_dmul
+ .text          0x00004090       0x84 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsidf.o)
+                0x00004090                __aeabi_i2d
+ .text          0x00004114      0x114 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(truncdfsf2.o)
+                0x00004114                __aeabi_d2f
+ .text          0x00004228       0x3c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+                0x00004228                __clzsi2
  .text.__libc_init_array
-                0x00004164       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
-                0x00004164                __libc_init_array
- .text.memset   0x000041ac       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
-                0x000041ac                memset
+                0x00004264       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+                0x00004264                __libc_init_array
+ .text.memset   0x000042ac       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+                0x000042ac                memset
  *(.glue_7t)
- .glue_7t       0x000041bc        0x0 linker stubs
+ .glue_7t       0x000042bc        0x0 linker stubs
  *(.glue_7)
- .glue_7        0x000041bc        0x0 linker stubs
+ .glue_7        0x000042bc        0x0 linker stubs
  *(.rodata .rodata* .gnu.linkonce.r.*)
- .rodata        0x000041bc       0x1c driver_init.o
- .rodata        0x000041d8       0x1c hal/src/hal_i2c_m_sync.o
- .rodata        0x000041f4       0x14 hal/src/hal_io.o
- .rodata        0x00004208       0x17 hal/src/hal_timer.o
- *fill*         0x0000421f        0x1 
- .rodata        0x00004220       0x1e hal/utils/src/utils_list.o
- *fill*         0x0000423e        0x2 
- .rodata        0x00004240       0x4c hpl/core/hpl_core_m0plus_base.o
- .rodata        0x0000428c       0x2d hpl/sercom/hpl_sercom.o
- *fill*         0x000042b9        0x3 
- .rodata        0x000042bc       0x13 hpl/tc/hpl_tc.o
- *fill*         0x000042cf        0x1 
- .rodata        0x000042d0        0x8 temperature_sensor/mcp980x/mcp980x.o
- .rodata        0x000042d8       0x40 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(mulsf3.o)
- .rodata        0x00004318       0x40 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
+ .rodata        0x000042bc       0x1c driver_init.o
+ .rodata        0x000042d8       0x1c hal/src/hal_i2c_m_sync.o
+ .rodata        0x000042f4       0x14 hal/src/hal_io.o
+ .rodata        0x00004308       0x17 hal/src/hal_timer.o
+ *fill*         0x0000431f        0x1 
+ .rodata        0x00004320       0x1e hal/utils/src/utils_list.o
+ *fill*         0x0000433e        0x2 
+ .rodata        0x00004340       0x4c hpl/core/hpl_core_m0plus_base.o
+ .rodata        0x0000438c       0x2d hpl/sercom/hpl_sercom.o
+ *fill*         0x000043b9        0x3 
+ .rodata        0x000043bc       0x13 hpl/tc/hpl_tc.o
+ *fill*         0x000043cf        0x1 
+ .rodata        0x000043d0        0x8 memory/fm24cl16b/fm24cl16b.o
+ .rodata        0x000043d8        0x8 temperature_sensor/mcp980x/mcp980x.o
+ .rodata        0x000043e0       0x40 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(mulsf3.o)
+ .rodata        0x00004420       0x40 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00004358                . = ALIGN (0x4)
+                0x00004460                . = ALIGN (0x4)
  *(.init)
- .init          0x00004358        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
-                0x00004358                _init
- .init          0x0000435c        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
-                0x00004364                . = ALIGN (0x4)
-                0x00004364                __preinit_array_start = .
+ .init          0x00004460        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+                0x00004460                _init
+ .init          0x00004464        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+                0x0000446c                . = ALIGN (0x4)
+                0x0000446c                __preinit_array_start = .
  *(.preinit_array)
-                0x00004364                __preinit_array_end = .
-                0x00004364                . = ALIGN (0x4)
-                0x00004364                __init_array_start = .
+                0x0000446c                __preinit_array_end = .
+                0x0000446c                . = ALIGN (0x4)
+                0x0000446c                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x00004364        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
-                0x00004368                __init_array_end = .
-                0x00004368                . = ALIGN (0x4)
+ .init_array    0x0000446c        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+                0x00004470                __init_array_end = .
+                0x00004470                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x00004368                . = ALIGN (0x4)
+                0x00004470                . = ALIGN (0x4)
  *(.fini)
- .fini          0x00004368        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
-                0x00004368                _fini
- .fini          0x0000436c        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
-                0x00004374                . = ALIGN (0x4)
-                0x00004374                __fini_array_start = .
+ .fini          0x00004470        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+                0x00004470                _fini
+ .fini          0x00004474        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+                0x0000447c                . = ALIGN (0x4)
+                0x0000447c                __fini_array_start = .
  *(.fini_array)
- .fini_array    0x00004374        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .fini_array    0x0000447c        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
  *(SORT(.fini_array.*))
-                0x00004378                __fini_array_end = .
+                0x00004480                __fini_array_end = .
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x00004378                . = ALIGN (0x4)
-                0x00004378                _efixed = .
+                0x00004480                . = ALIGN (0x4)
+                0x00004480                _efixed = .
                 [!provide]                PROVIDE (__exidx_start, .)
 
-.vfp11_veneer   0x00004378        0x0
- .vfp11_veneer  0x00004378        0x0 linker stubs
+.vfp11_veneer   0x00004480        0x0
+ .vfp11_veneer  0x00004480        0x0 linker stubs
 
-.v4_bx          0x00004378        0x0
- .v4_bx         0x00004378        0x0 linker stubs
+.v4_bx          0x00004480        0x0
+ .v4_bx         0x00004480        0x0 linker stubs
 
-.iplt           0x00004378        0x0
- .iplt          0x00004378        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.iplt           0x00004480        0x0
+ .iplt          0x00004480        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
-.eh_frame       0x00004378        0x0
- .eh_frame      0x00004378        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.eh_frame       0x00004480        0x0
+ .eh_frame      0x00004480        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
-.rel.dyn        0x00004378        0x0
- .rel.iplt      0x00004378        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.rel.dyn        0x00004480        0x0
+ .rel.iplt      0x00004480        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
-.jcr            0x00004378        0x0
- .jcr           0x00004378        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.jcr            0x00004480        0x0
+ .jcr           0x00004480        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
-.igot.plt       0x00004378        0x0
- .igot.plt      0x00004378        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.igot.plt       0x00004480        0x0
+ .igot.plt      0x00004480        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
                 [!provide]                PROVIDE (__exidx_end, .)
-                0x00004378                . = ALIGN (0x4)
-                0x00004378                _etext = .
+                0x00004480                . = ALIGN (0x4)
+                0x00004480                _etext = .
 
-.relocate       0x20000000       0x2c load address 0x00004378
+.relocate       0x20000000       0x2c load address 0x00004480
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _srelocate = .
  *(.ramfunc .ramfunc.*)
@@ -9031,7 +9803,7 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin
                 0x30000000                . = ALIGN (0x8)
                 0x30000000                _elpram = .
 
-.bss            0x2000002c       0x6c load address 0x000043a4
+.bss            0x2000002c       0x78 load address 0x000044ac
                 0x2000002c                . = ALIGN (0x4)
                 0x2000002c                _sbss = .
                 0x2000002c                _szero = .
@@ -9039,26 +9811,30 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin
  .bss           0x2000002c       0x1c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
  .bss           0x20000048        0x4 hal/src/hal_delay.o
  .bss           0x2000004c        0x4 hpl/tc/hpl_tc.o
- .bss           0x20000050        0x8 temperature_sensor_main.o
+ .bss           0x20000050        0x8 memory_main.o
+ .bss           0x20000058        0x8 temperature_sensor_main.o
  *(COMMON)
- COMMON         0x20000058       0x3c driver_init.o
-                0x20000058                I2C_0
-                0x20000078                TIMER_0
- COMMON         0x20000094        0x4 temperature_sensor_main.o
-                0x20000094                TEMPERATURE_SENSOR
-                0x20000098                . = ALIGN (0x4)
-                0x20000098                _ebss = .
-                0x20000098                _ezero = .
+ COMMON         0x20000060       0x3c driver_init.o
+                0x20000060                I2C_0
+                0x20000080                TIMER_0
+ COMMON         0x2000009c        0x4 memory_main.o
+                0x2000009c                Memory_1
+ COMMON         0x200000a0        0x4 temperature_sensor_main.o
+                0x200000a0                TEMPERATURE_SENSOR
+                0x200000a4                . = ALIGN (0x4)
+                0x200000a4                _ebss = .
+                0x200000a4                _ezero = .
 
-.stack          0x20000098     0x2000 load address 0x00004410
-                0x20000098                . = ALIGN (0x8)
-                0x20000098                _sstack = .
-                0x20002098                . = (. + STACK_SIZE)
- *fill*         0x20000098     0x2000 
-                0x20002098                . = ALIGN (0x8)
-                0x20002098                _estack = .
-                0x20002098                . = ALIGN (0x4)
-                0x20002098                _end = .
+.stack          0x200000a4     0x2004 load address 0x00004524
+                0x200000a8                . = ALIGN (0x8)
+ *fill*         0x200000a4        0x4 
+                0x200000a8                _sstack = .
+                0x200020a8                . = (. + STACK_SIZE)
+ *fill*         0x200000a8     0x2000 
+                0x200020a8                . = ALIGN (0x8)
+                0x200020a8                _estack = .
+                0x200020a8                . = ALIGN (0x4)
+                0x200020a8                _end = .
 OUTPUT(cube_sat_fram_v_0.1.elf elf32-littlearm)
 
 .ARM.attributes
@@ -9106,37 +9882,43 @@ OUTPUT(cube_sat_fram_v_0.1.elf elf32-littlearm)
  .ARM.attributes
                 0x000003ce       0x32 main.o
  .ARM.attributes
-                0x00000400       0x32 temperature_sensor/mcp980x/mcp980x.o
+                0x00000400       0x32 memory/fm24cl16b/fm24cl16b.o
  .ARM.attributes
-                0x00000432       0x32 temperature_sensor/temperature_sensor.o
+                0x00000432       0x32 memory/memory.o
  .ARM.attributes
-                0x00000464       0x32 temperature_sensor_main.o
+                0x00000464       0x32 memory_main.o
  .ARM.attributes
-                0x00000496       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+                0x00000496       0x32 temperature_sensor/mcp980x/mcp980x.o
  .ARM.attributes
-                0x000004b4       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                0x000004c8       0x32 temperature_sensor/temperature_sensor.o
  .ARM.attributes
-                0x000004d2       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(mulsf3.o)
+                0x000004fa       0x32 temperature_sensor_main.o
  .ARM.attributes
-                0x000004fe       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subsf3.o)
+                0x0000052c       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x0000052a       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixsfsi.o)
+                0x0000054a       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000556       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsisf.o)
+                0x00000568       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(mulsf3.o)
  .ARM.attributes
-                0x00000582       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
+                0x00000594       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subsf3.o)
  .ARM.attributes
-                0x000005ae       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsidf.o)
+                0x000005c0       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixsfsi.o)
  .ARM.attributes
-                0x000005da       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(truncdfsf2.o)
+                0x000005ec       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsisf.o)
  .ARM.attributes
-                0x00000606       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+                0x00000618       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
  .ARM.attributes
-                0x00000624       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+                0x00000644       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsidf.o)
  .ARM.attributes
-                0x00000650       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+                0x00000670       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(truncdfsf2.o)
  .ARM.attributes
-                0x0000067c       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+                0x0000069c       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x000006ba       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000006e6       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000712       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
 
 .comment        0x00000000       0x59
  .comment       0x00000000       0x59 atmel_start.o
@@ -9159,11 +9941,14 @@ OUTPUT(cube_sat_fram_v_0.1.elf elf32-littlearm)
  .comment       0x00000059       0x5a hpl/sercom/hpl_sercom.o
  .comment       0x00000059       0x5a hpl/tc/hpl_tc.o
  .comment       0x00000059       0x5a main.o
+ .comment       0x00000059       0x5a memory/fm24cl16b/fm24cl16b.o
+ .comment       0x00000059       0x5a memory/memory.o
+ .comment       0x00000059       0x5a memory_main.o
  .comment       0x00000059       0x5a temperature_sensor/mcp980x/mcp980x.o
  .comment       0x00000059       0x5a temperature_sensor/temperature_sensor.o
  .comment       0x00000059       0x5a temperature_sensor_main.o
 
-.debug_info     0x00000000    0x169ce
+.debug_info     0x00000000    0x1881c
  .debug_info    0x00000000      0x3e7 atmel_start.o
  .debug_info    0x000003e7      0xa2a Device_Startup/startup_saml21.o
  .debug_info    0x00000e11     0x4a5d driver_init.o
@@ -9182,12 +9967,15 @@ OUTPUT(cube_sat_fram_v_0.1.elf elf32-littlearm)
  .debug_info    0x0000a386      0xa67 hpl/pm/hpl_pm.o
  .debug_info    0x0000aded     0x80a8 hpl/sercom/hpl_sercom.o
  .debug_info    0x00012e95     0x22b5 hpl/tc/hpl_tc.o
- .debug_info    0x0001514a      0x61a main.o
- .debug_info    0x00015764      0xa18 temperature_sensor/mcp980x/mcp980x.o
- .debug_info    0x0001617c      0x249 temperature_sensor/temperature_sensor.o
- .debug_info    0x000163c5      0x609 temperature_sensor_main.o
+ .debug_info    0x0001514a      0xfd4 main.o
+ .debug_info    0x0001611e      0x41e memory/fm24cl16b/fm24cl16b.o
+ .debug_info    0x0001653c      0x281 memory/memory.o
+ .debug_info    0x000167bd      0xdf5 memory_main.o
+ .debug_info    0x000175b2      0xa18 temperature_sensor/mcp980x/mcp980x.o
+ .debug_info    0x00017fca      0x249 temperature_sensor/temperature_sensor.o
+ .debug_info    0x00018213      0x609 temperature_sensor_main.o
 
-.debug_abbrev   0x00000000     0x24d4
+.debug_abbrev   0x00000000     0x2975
  .debug_abbrev  0x00000000       0xea atmel_start.o
  .debug_abbrev  0x000000ea      0x1d7 Device_Startup/startup_saml21.o
  .debug_abbrev  0x000002c1      0x2c2 driver_init.o
@@ -9206,12 +9994,15 @@ OUTPUT(cube_sat_fram_v_0.1.elf elf32-littlearm)
  .debug_abbrev  0x00001675      0x235 hpl/pm/hpl_pm.o
  .debug_abbrev  0x000018aa      0x3bf hpl/sercom/hpl_sercom.o
  .debug_abbrev  0x00001c69      0x394 hpl/tc/hpl_tc.o
- .debug_abbrev  0x00001ffd      0x106 main.o
- .debug_abbrev  0x00002103      0x1c9 temperature_sensor/mcp980x/mcp980x.o
- .debug_abbrev  0x000022cc      0x102 temperature_sensor/temperature_sensor.o
- .debug_abbrev  0x000023ce      0x106 temperature_sensor_main.o
+ .debug_abbrev  0x00001ffd      0x1d0 main.o
+ .debug_abbrev  0x000021cd      0x10a memory/fm24cl16b/fm24cl16b.o
+ .debug_abbrev  0x000022d7       0xf9 memory/memory.o
+ .debug_abbrev  0x000023d0      0x1d4 memory_main.o
+ .debug_abbrev  0x000025a4      0x1c9 temperature_sensor/mcp980x/mcp980x.o
+ .debug_abbrev  0x0000276d      0x102 temperature_sensor/temperature_sensor.o
+ .debug_abbrev  0x0000286f      0x106 temperature_sensor_main.o
 
-.debug_loc      0x00000000     0x6276
+.debug_loc      0x00000000     0x63f2
  .debug_loc     0x00000000       0x2c atmel_start.o
  .debug_loc     0x0000002c       0x64 Device_Startup/startup_saml21.o
  .debug_loc     0x00000090      0x450 driver_init.o
@@ -9231,11 +10022,14 @@ OUTPUT(cube_sat_fram_v_0.1.elf elf32-littlearm)
  .debug_loc     0x0000180c     0x3f02 hpl/sercom/hpl_sercom.o
  .debug_loc     0x0000570e      0x89c hpl/tc/hpl_tc.o
  .debug_loc     0x00005faa       0x38 main.o
- .debug_loc     0x00005fe2      0x1c0 temperature_sensor/mcp980x/mcp980x.o
- .debug_loc     0x000061a2       0xa8 temperature_sensor/temperature_sensor.o
- .debug_loc     0x0000624a       0x2c temperature_sensor_main.o
+ .debug_loc     0x00005fe2       0xa8 memory/fm24cl16b/fm24cl16b.o
+ .debug_loc     0x0000608a       0xa8 memory/memory.o
+ .debug_loc     0x00006132       0x2c memory_main.o
+ .debug_loc     0x0000615e      0x1c0 temperature_sensor/mcp980x/mcp980x.o
+ .debug_loc     0x0000631e       0xa8 temperature_sensor/temperature_sensor.o
+ .debug_loc     0x000063c6       0x2c temperature_sensor_main.o
 
-.debug_aranges  0x00000000     0x1048
+.debug_aranges  0x00000000     0x10c8
  .debug_aranges
                 0x00000000       0x20 atmel_start.o
  .debug_aranges
@@ -9275,13 +10069,19 @@ OUTPUT(cube_sat_fram_v_0.1.elf elf32-littlearm)
  .debug_aranges
                 0x00000f80       0x20 main.o
  .debug_aranges
-                0x00000fa0       0x58 temperature_sensor/mcp980x/mcp980x.o
+                0x00000fa0       0x30 memory/fm24cl16b/fm24cl16b.o
  .debug_aranges
-                0x00000ff8       0x30 temperature_sensor/temperature_sensor.o
+                0x00000fd0       0x30 memory/memory.o
  .debug_aranges
-                0x00001028       0x20 temperature_sensor_main.o
+                0x00001000       0x20 memory_main.o
+ .debug_aranges
+                0x00001020       0x58 temperature_sensor/mcp980x/mcp980x.o
+ .debug_aranges
+                0x00001078       0x30 temperature_sensor/temperature_sensor.o
+ .debug_aranges
+                0x000010a8       0x20 temperature_sensor_main.o
 
-.debug_ranges   0x00000000      0xf00
+.debug_ranges   0x00000000      0xf50
  .debug_ranges  0x00000000       0x10 atmel_start.o
  .debug_ranges  0x00000010       0x18 Device_Startup/startup_saml21.o
  .debug_ranges  0x00000028       0xb0 driver_init.o
@@ -9301,11 +10101,14 @@ OUTPUT(cube_sat_fram_v_0.1.elf elf32-littlearm)
  .debug_ranges  0x00000428      0x908 hpl/sercom/hpl_sercom.o
  .debug_ranges  0x00000d30      0x148 hpl/tc/hpl_tc.o
  .debug_ranges  0x00000e78       0x10 main.o
- .debug_ranges  0x00000e88       0x48 temperature_sensor/mcp980x/mcp980x.o
- .debug_ranges  0x00000ed0       0x20 temperature_sensor/temperature_sensor.o
- .debug_ranges  0x00000ef0       0x10 temperature_sensor_main.o
+ .debug_ranges  0x00000e88       0x20 memory/fm24cl16b/fm24cl16b.o
+ .debug_ranges  0x00000ea8       0x20 memory/memory.o
+ .debug_ranges  0x00000ec8       0x10 memory_main.o
+ .debug_ranges  0x00000ed8       0x48 temperature_sensor/mcp980x/mcp980x.o
+ .debug_ranges  0x00000f20       0x20 temperature_sensor/temperature_sensor.o
+ .debug_ranges  0x00000f40       0x10 temperature_sensor_main.o
 
-.debug_macro    0x00000000    0x1abd3
+.debug_macro    0x00000000    0x1bd36
  .debug_macro   0x00000000      0x5c5 atmel_start.o
  .debug_macro   0x000005c5      0x89e atmel_start.o
  .debug_macro   0x00000e63      0x16d atmel_start.o
@@ -9459,17 +10262,21 @@ OUTPUT(cube_sat_fram_v_0.1.elf elf32-littlearm)
  .debug_macro   0x00018f58      0x545 hpl/tc/hpl_tc.o
  .debug_macro   0x0001949d       0x10 hpl/tc/hpl_tc.o
  .debug_macro   0x000194ad       0x83 hpl/tc/hpl_tc.o
- .debug_macro   0x00019530      0x609 main.o
- .debug_macro   0x00019b39       0x10 main.o
- .debug_macro   0x00019b49       0x4c main.o
- .debug_macro   0x00019b95       0x10 main.o
- .debug_macro   0x00019ba5      0x50a temperature_sensor/mcp980x/mcp980x.o
- .debug_macro   0x0001a0af       0x46 temperature_sensor/mcp980x/mcp980x.o
- .debug_macro   0x0001a0f5      0x4c8 temperature_sensor/temperature_sensor.o
- .debug_macro   0x0001a5bd      0x5f4 temperature_sensor_main.o
- .debug_macro   0x0001abb1       0x22 temperature_sensor_main.o
+ .debug_macro   0x00019530      0x6f4 main.o
+ .debug_macro   0x00019c24       0x10 main.o
+ .debug_macro   0x00019c34       0x4c main.o
+ .debug_macro   0x00019c80       0x10 main.o
+ .debug_macro   0x00019c90       0x10 main.o
+ .debug_macro   0x00019ca0      0x4fa memory/fm24cl16b/fm24cl16b.o
+ .debug_macro   0x0001a19a      0x4c8 memory/memory.o
+ .debug_macro   0x0001a662      0x6a6 memory_main.o
+ .debug_macro   0x0001ad08       0x22 memory_main.o
+ .debug_macro   0x0001ad2a      0x50a temperature_sensor/mcp980x/mcp980x.o
+ .debug_macro   0x0001b234       0x46 temperature_sensor/mcp980x/mcp980x.o
+ .debug_macro   0x0001b27a      0x4c8 temperature_sensor/temperature_sensor.o
+ .debug_macro   0x0001b742      0x5f4 temperature_sensor_main.o
 
-.debug_line     0x00000000    0x115ec
+.debug_line     0x00000000    0x137cc
  .debug_line    0x00000000      0xb8e atmel_start.o
  .debug_line    0x00000b8e      0x764 Device_Startup/startup_saml21.o
  .debug_line    0x000012f2      0xd56 driver_init.o
@@ -9488,58 +10295,67 @@ OUTPUT(cube_sat_fram_v_0.1.elf elf32-littlearm)
  .debug_line    0x0000a332      0xacd hpl/pm/hpl_pm.o
  .debug_line    0x0000adff     0x2a93 hpl/sercom/hpl_sercom.o
  .debug_line    0x0000d892      0xe0c hpl/tc/hpl_tc.o
- .debug_line    0x0000e69e      0xc86 main.o
- .debug_line    0x0000f324      0xc1e temperature_sensor/mcp980x/mcp980x.o
- .debug_line    0x0000ff42      0xa48 temperature_sensor/temperature_sensor.o
- .debug_line    0x0001098a      0xc62 temperature_sensor_main.o
+ .debug_line    0x0000e69e      0xd69 main.o
+ .debug_line    0x0000f407      0xa80 memory/fm24cl16b/fm24cl16b.o
+ .debug_line    0x0000fe87      0xa24 memory/memory.o
+ .debug_line    0x000108ab      0xc59 memory_main.o
+ .debug_line    0x00011504      0xc1e temperature_sensor/mcp980x/mcp980x.o
+ .debug_line    0x00012122      0xa48 temperature_sensor/temperature_sensor.o
+ .debug_line    0x00012b6a      0xc62 temperature_sensor_main.o
 
-.debug_str      0x00000000    0x87bb1
- .debug_str     0x00000000    0x7cb63 atmel_start.o
+.debug_str      0x00000000    0x8a92d
+ .debug_str     0x00000000    0x7cb59 atmel_start.o
                               0x7d09a (size before relaxing)
- .debug_str     0x0007cb63      0x520 Device_Startup/startup_saml21.o
+ .debug_str     0x0007cb59      0x520 Device_Startup/startup_saml21.o
                               0x74ca2 (size before relaxing)
- .debug_str     0x0007d083     0x16ba driver_init.o
+ .debug_str     0x0007d079     0x16af driver_init.o
                               0x7e84c (size before relaxing)
- .debug_str     0x0007e73d       0xb6 hal/src/hal_delay.o
+ .debug_str     0x0007e728       0xb6 hal/src/hal_delay.o
                               0x7c6a2 (size before relaxing)
- .debug_str     0x0007e7f3      0x170 hal/src/hal_i2c_m_sync.o
+ .debug_str     0x0007e7de      0x170 hal/src/hal_i2c_m_sync.o
                               0x7cf3b (size before relaxing)
- .debug_str     0x0007e963       0x3d hal/src/hal_io.o
+ .debug_str     0x0007e94e       0x3d hal/src/hal_io.o
                               0x7c6e5 (size before relaxing)
- .debug_str     0x0007e9a0      0x30f hal/src/hal_timer.o
+ .debug_str     0x0007e98b      0x305 hal/src/hal_timer.o
                               0x7cf77 (size before relaxing)
- .debug_str     0x0007ecaf       0x2f hal/utils/src/utils_assert.o
+ .debug_str     0x0007ec90       0x2a hal/utils/src/utils_assert.o
                               0x7c648 (size before relaxing)
- .debug_str     0x0007ecde       0x31 hal/utils/src/utils_list.o
+ .debug_str     0x0007ecba       0x31 hal/utils/src/utils_list.o
                               0x7c6f2 (size before relaxing)
- .debug_str     0x0007ed0f      0x2ff hpl/core/hpl_core_m0plus_base.o
+ .debug_str     0x0007eceb      0x2f8 hpl/core/hpl_core_m0plus_base.o
                               0x7d07f (size before relaxing)
- .debug_str     0x0007f00e     0x19b7 hpl/core/hpl_init.o
+ .debug_str     0x0007efe3     0x19b7 hpl/core/hpl_init.o
                               0x7e7c7 (size before relaxing)
- .debug_str     0x000809c5      0x81b hpl/gclk/hpl_gclk.o
+ .debug_str     0x0008099a      0x81b hpl/gclk/hpl_gclk.o
                               0x7cf7d (size before relaxing)
- .debug_str     0x000811e0       0xa5 hpl/mclk/hpl_mclk.o
+ .debug_str     0x000811b5       0xa5 hpl/mclk/hpl_mclk.o
                               0x7cb50 (size before relaxing)
- .debug_str     0x00081285      0x47f hpl/osc32kctrl/hpl_osc32kctrl.o
+ .debug_str     0x0008125a      0x47f hpl/osc32kctrl/hpl_osc32kctrl.o
                               0x7ca9f (size before relaxing)
- .debug_str     0x00081704      0x8e8 hpl/oscctrl/hpl_oscctrl.o
+ .debug_str     0x000816d9      0x8e8 hpl/oscctrl/hpl_oscctrl.o
                               0x7cf82 (size before relaxing)
- .debug_str     0x00081fec      0x367 hpl/pm/hpl_pm.o
+ .debug_str     0x00081fc1      0x367 hpl/pm/hpl_pm.o
                               0x7ca00 (size before relaxing)
- .debug_str     0x00082353     0x4904 hpl/sercom/hpl_sercom.o
+ .debug_str     0x00082328     0x4904 hpl/sercom/hpl_sercom.o
                               0x821e5 (size before relaxing)
- .debug_str     0x00086c57      0xa22 hpl/tc/hpl_tc.o
+ .debug_str     0x00086c2c      0xa22 hpl/tc/hpl_tc.o
                               0x7ddca (size before relaxing)
- .debug_str     0x00087679      0x325 main.o
-                              0x7d3ec (size before relaxing)
- .debug_str     0x0008799e      0x197 temperature_sensor/mcp980x/mcp980x.o
+ .debug_str     0x0008764e     0x2fd0 main.o
+                              0x80106 (size before relaxing)
+ .debug_str     0x0008a61e       0x7d memory/fm24cl16b/fm24cl16b.o
+                              0x7c8d9 (size before relaxing)
+ .debug_str     0x0008a69b       0x4c memory/memory.o
+                              0x7c643 (size before relaxing)
+ .debug_str     0x0008a6e7       0x3a memory_main.o
+                              0x7fde2 (size before relaxing)
+ .debug_str     0x0008a721      0x190 temperature_sensor/mcp980x/mcp980x.o
                               0x7cc5e (size before relaxing)
- .debug_str     0x00087b35       0x44 temperature_sensor/temperature_sensor.o
+ .debug_str     0x0008a8b1       0x44 temperature_sensor/temperature_sensor.o
                               0x7c6a7 (size before relaxing)
- .debug_str     0x00087b79       0x38 temperature_sensor_main.o
+ .debug_str     0x0008a8f5       0x38 temperature_sensor_main.o
                               0x7d3f4 (size before relaxing)
 
-.debug_frame    0x00000000     0x3bbc
+.debug_frame    0x00000000     0x3ccc
  .debug_frame   0x00000000       0x2c atmel_start.o
  .debug_frame   0x0000002c       0x4c Device_Startup/startup_saml21.o
  .debug_frame   0x00000078      0x2a0 driver_init.o
@@ -9559,16 +10375,19 @@ OUTPUT(cube_sat_fram_v_0.1.elf elf32-littlearm)
  .debug_frame   0x00000efc     0x241c hpl/sercom/hpl_sercom.o
  .debug_frame   0x00003318      0x504 hpl/tc/hpl_tc.o
  .debug_frame   0x0000381c       0x30 main.o
- .debug_frame   0x0000384c      0x110 temperature_sensor/mcp980x/mcp980x.o
- .debug_frame   0x0000395c       0x70 temperature_sensor/temperature_sensor.o
- .debug_frame   0x000039cc       0x2c temperature_sensor_main.o
- .debug_frame   0x000039f8       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
- .debug_frame   0x00003a18       0x3c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(mulsf3.o)
- .debug_frame   0x00003a54       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subsf3.o)
- .debug_frame   0x00003a8c       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixsfsi.o)
- .debug_frame   0x00003aac       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsisf.o)
- .debug_frame   0x00003ad8       0x3c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
- .debug_frame   0x00003b14       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsidf.o)
- .debug_frame   0x00003b40       0x30 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(truncdfsf2.o)
- .debug_frame   0x00003b70       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
- .debug_frame   0x00003b9c       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000384c       0x70 memory/fm24cl16b/fm24cl16b.o
+ .debug_frame   0x000038bc       0x70 memory/memory.o
+ .debug_frame   0x0000392c       0x30 memory_main.o
+ .debug_frame   0x0000395c      0x110 temperature_sensor/mcp980x/mcp980x.o
+ .debug_frame   0x00003a6c       0x70 temperature_sensor/temperature_sensor.o
+ .debug_frame   0x00003adc       0x2c temperature_sensor_main.o
+ .debug_frame   0x00003b08       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00003b28       0x3c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(mulsf3.o)
+ .debug_frame   0x00003b64       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subsf3.o)
+ .debug_frame   0x00003b9c       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixsfsi.o)
+ .debug_frame   0x00003bbc       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsisf.o)
+ .debug_frame   0x00003be8       0x3c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
+ .debug_frame   0x00003c24       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsidf.o)
+ .debug_frame   0x00003c50       0x30 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(truncdfsf2.o)
+ .debug_frame   0x00003c80       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00003cac       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)

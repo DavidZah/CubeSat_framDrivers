@@ -5,6 +5,7 @@
  *  Author: David
  */ 
 
+/**TO DO COOMENTS*/
 
 #ifndef MEMORY_H_
 #define MEMORY_H_
@@ -14,51 +15,40 @@ extern "C" {
 
 #include <compiler.h>
 
-/*
- * Multiplexor config sturct
- *
- */
-struct multiplexor_settings 
-{
-	struct mcp23017_settings *mcp23017; 
-};
 
 
-/** Forward declaration of multiplexor structure. */
-struct multiplexor;
+/** Forward declaration of memory structure. */
+struct memory;
 
 /**
- * \brief Interface of abstract multiplexor
+ * \brief Interface of abstract memory
  */
-struct multiplexor_interface {
-	float    (*read)(const struct multiplexor *const me);
-	int16_t  (*config)(const struct multiplexor *const me,struct multiplexor_settings *mux_set);
-	int16_t  (*set_pin_direction)(const struct multiplexor *const me,uint8_t pin,const enum gpio_direction direction);
-	int16_t (*set_pin_level)(const struct multiplexor *const me,uint8_t pin,bool pin_level);
-	int16_t (*set_pin_pullup)(const struct multiplexor *const me,uint8_t pin,const enum gpio_pull_mode pull_mode);
+struct memory_interface {
+	int16_t    (*read)(const struct memory *const me,int32_t addres,uint8_t *data,uint8_t num_to_write);
+	int16_t  (*write)(const struct memory *const me,int32_t addres,uint8_t *data,uint8_t num_to_write);
 };
 
 /**
- * \brief Abstract multiplexor
+ * \brief Abstract memory
  */
-struct multiplexor {
-	/** The pointer to interface used to communicate with temperature sensor */
+struct memory {
+	/** The pointer to interface used to communicate with memory */
 	void *io;
-	/** The interface of abstract temperature sensor */
-	const struct multiplexor_interface *interface;
+	/** The interface of abstract memory */
+	const struct memory_interface *interface;
 };
 
 /**
  * \brief Construct abstract multiplexor
  *
- * \param[in] me The pointer to multiplexor initalize
+ * \param[in] me The pointer to memory initalize
  * \param[in] io The pointer to instance of interface to multiplexor
  * \param[in] interface The pointer to interface of multiplexor
  *
  * \return pointer to initialized multiplexor
  */
-struct multiplexor * multiplexer_construct(struct multiplexor *const me, void *const io,
-                                                        const struct multiplexor_interface *const interface);
+struct memory * memory_construct(struct memory *const me, void *const io,
+                                                        const struct memory_interface *const interface);
 
 /**
  * \brief Read data from the multiplexor UPRAVA
@@ -67,35 +57,12 @@ struct multiplexor * multiplexer_construct(struct multiplexor *const me, void *c
  *
  * \return temperature
  */
-float multiplexor_read(const struct multiplexor *const me);
-/*
- * \brief Setup  
- *  
- * \param[in] me The pointer to multiplexor to setup
- *
- * \param[in] me The pointer to multiplexor_settings
- */
-int16_t multiplexor_config(const struct multiplexor *const me,struct multiplexor_settings * temp_set);
-/*
- * \brief input/output settings   
- *  
- * \param[in] me The pointer to multiplexor to setup
- *
- * \param[in] me pin to set input/output 
- *
- * \param[in] set to output/input  
- */
-int16_t multiplexer_set_pin_direction (const struct multiplexor *const me,uint8_t pin,const enum gpio_direction direction);
-/*
- * \brief input/output settings   
- *  
- * \param[in] me The pointer to multiplexor to setup
- *
- * \param[in] me pin to set low or high 
- *
- * \param[in] set to low or high (True=high)  
- */
-int16_t multiplexer_set_pin_level (const struct multiplexor *const me,uint8_t pin,bool level);
+
+/**TO DO COOMENTS*/
+int16_t memory_read(const struct memory *const me,int32_t addres,uint8_t *data,uint8_t num_to_read);
+
+int16_t memory_write(const struct memory *const me,int32_t addres,uint8_t *data,uint8_t num_to_write); 
+
 #ifdef __cplusplus
 }
 #endif

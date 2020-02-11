@@ -93,6 +93,7 @@ C_SRCS +=  \
 ../main.c \
 ../memory/fm24cl16b/fm24cl16b.c \
 ../memory/memory.c \
+../memory_main.c \
 ../temperature_sensor/at30tse75x/at30tse75x.c \
 ../temperature_sensor/mcp980x/mcp980x.c \
 ../temperature_sensor/temperature_sensor.c \
@@ -136,6 +137,7 @@ hpl/tc/hpl_tc.o \
 main.o \
 memory/fm24cl16b/fm24cl16b.o \
 memory/memory.o \
+memory_main.o \
 temperature_sensor/at30tse75x/at30tse75x.o \
 temperature_sensor/mcp980x/mcp980x.o \
 temperature_sensor/temperature_sensor.o \
@@ -172,6 +174,7 @@ hpl/tc/hpl_tc.o \
 main.o \
 memory/fm24cl16b/fm24cl16b.o \
 memory/memory.o \
+memory_main.o \
 temperature_sensor/at30tse75x/at30tse75x.o \
 temperature_sensor/mcp980x/mcp980x.o \
 temperature_sensor/temperature_sensor.o \
@@ -208,6 +211,7 @@ hpl/tc/hpl_tc.d \
 main.d \
 memory/fm24cl16b/fm24cl16b.d \
 memory/memory.d \
+memory_main.d \
 temperature_sensor/at30tse75x/at30tse75x.d \
 temperature_sensor/mcp980x/mcp980x.d \
 temperature_sensor/temperature_sensor.d \
@@ -244,6 +248,7 @@ hpl/tc/hpl_tc.d \
 main.d \
 memory/fm24cl16b/fm24cl16b.d \
 memory/memory.d \
+memory_main.d \
 temperature_sensor/at30tse75x/at30tse75x.d \
 temperature_sensor/mcp980x/mcp980x.d \
 temperature_sensor/temperature_sensor.d \
@@ -469,6 +474,13 @@ memory/fm24cl16b/fm24cl16b.o: ../memory/fm24cl16b/fm24cl16b.c
 	
 
 memory/memory.o: ../memory/memory.c
+	@echo Building file: $<
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\arm\arm-gnu-toolchain\bin\arm-none-eabi-gcc.exe$(QUOTE)  -x c -mthumb -D__SAML21E18B__ -DDEBUG  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\ARM\CMSIS\5.4.0\CMSIS\Core\Include" -I"../Config" -I".." -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/gclk" -I"../hpl/mclk" -I"../hpl/osc32kctrl" -I"../hpl/oscctrl" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/sercom" -I"../hpl/tc" -I"../hri" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\SAML21_DFP\1.2.125\saml21b\include" -I"../temperature_sensor" -I"../temperature_sensor/mcp980x" -I"../temperature_sensor/at30tse75x"  -O0 -ffunction-sections -mlong-calls -g3 -Wall -mcpu=cortex-m0plus -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	@echo Finished building: $<
+	
+
+./memory_main.o: .././memory_main.c
 	@echo Building file: $<
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\arm\arm-gnu-toolchain\bin\arm-none-eabi-gcc.exe$(QUOTE)  -x c -mthumb -D__SAML21E18B__ -DDEBUG  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\ARM\CMSIS\5.4.0\CMSIS\Core\Include" -I"../Config" -I".." -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/gclk" -I"../hpl/mclk" -I"../hpl/osc32kctrl" -I"../hpl/oscctrl" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/sercom" -I"../hpl/tc" -I"../hri" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\SAML21_DFP\1.2.125\saml21b\include" -I"../temperature_sensor" -I"../temperature_sensor/mcp980x" -I"../temperature_sensor/at30tse75x"  -O0 -ffunction-sections -mlong-calls -g3 -Wall -mcpu=cortex-m0plus -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 

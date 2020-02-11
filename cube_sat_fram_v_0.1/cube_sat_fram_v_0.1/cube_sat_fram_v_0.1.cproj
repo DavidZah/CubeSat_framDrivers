@@ -763,6 +763,9 @@
     <Compile Include="hri\hri_wdt_l21.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="memory_main.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="main.c">
       <SubType>compile</SubType>
     </Compile>
@@ -776,6 +779,9 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="memory\memory.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="memory_main.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="temperature_sensor\at30tse75x\at30tse75x.c">
